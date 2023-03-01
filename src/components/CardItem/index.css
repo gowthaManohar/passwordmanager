@@ -1,0 +1,54 @@
+.website-text {
+  font-size: 20px;
+  background-color: orange;
+  padding: 15px;
+  border-radius: 100px;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.card-username {
+  font-size: 20px;
+  color: white;
+}
+.card-password {
+  font-size: 20px;
+  color: white;
+}
+
+.del-icon {
+  width: 40px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.list-item {
+  display: flex;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  align-items: flex-start;
+  max-width: 300px;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.del-button {
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+}
+
+.star-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+  .list-item {
+    max-width: 200px;
+  }
+}

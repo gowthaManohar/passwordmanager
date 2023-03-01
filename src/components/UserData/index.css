@@ -1,0 +1,70 @@
+.password-page-container {
+  background-color: #454f84;
+  padding: 30px;
+}
+.page-head-container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-container {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  height: 50px;
+}
+.search-img {
+  width: 30px;
+}
+.search-ip {
+  outline: none;
+  border-left: 1px solid black;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: transparent;
+}
+.count {
+  font-size: 20px;
+  color: white;
+}
+
+.label {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.no-password-img {
+  width: 90%;
+  max-width: 400px;
+}
+
+.no-passwords {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.no-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox-container {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.span-count {
+  color: white;
+  background-color: orchid;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.cards-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+}
